@@ -22,7 +22,10 @@ if (![bool](Get-Command choco -ErrorAction SilentlyContinue))
 
 $Apps = @(
     "git",
-    "vcredist140"
+    "make",
+    "cmake",
+    "7zip",
+    "mingw"
 )
 
 foreach ($App in $Apps)
